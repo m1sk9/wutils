@@ -1,0 +1,18 @@
+{
+  "languages": {
+    "Rust": {
+      "prettier": {
+        "allowed": false
+      },
+      "enable_language_server": true,
+      "show_edit_predictions": true
+    }
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "checkOnSave": true
+      }
+    }
+  }
+}

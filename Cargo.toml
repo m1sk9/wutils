@@ -1,0 +1,14 @@
+[package]
+name = "wutils"
+version = "0.0.0"
+edition = "2024"
+description = "A collection of useful command-line working utilities written in Rust."
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/m1sk9/wutils"
+homepage = "https://m1sk9.dev"
+keywords = ["productivity", "cli"]
+
+[dependencies]
+chrono = "0.4.42"
+clap = { version = "4.5.51", features = ["derive"] }
