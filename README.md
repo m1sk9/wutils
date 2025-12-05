@@ -21,7 +21,6 @@ cargo install wutils
 
 - `wutils salary <total-working-hours> <hourly-wage>`
   - Calculates wages based on the hourly wage derived from working hours.
-  - The hourly wage is either specified as an argument or uses the value set in the configuration.
   
   ```sh
   wutils salary 20:15:15 1300
